@@ -1,0 +1,17 @@
+a {
+  color: rgb(var(--v-theme-on-background));
+  text-decoration: none;
+
+  &:not(.v-tab):hover {
+    text-decoration: underline;
+  }
+}
+
+.font-weight-semibold {
+  font-weight: 600;
+}
+
+.text-h1,
+.text-h2 {
+  color: rgb(var(--v-theme-primary));
+}
