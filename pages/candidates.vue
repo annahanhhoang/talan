@@ -1,0 +1,1 @@
+<template>Candidates Page</template>

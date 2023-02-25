@@ -1,0 +1,1 @@
+<template>Client Page</template>

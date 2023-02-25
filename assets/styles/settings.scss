@@ -1,0 +1,17 @@
+/**
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+//https://next.vuetifyjs.com/features/sass-variables/`
+@forward 'vuetify/settings' with (
+  $app-bar-background: rgb(var(--v-theme-secondary)),
+  $app-bar-color: rgba(var(--v-theme-surface), var(--v-high-emphasis-opacity)),
+  $card-border-radius: 0,
+  $color-pack: false,
+  $container-max-widths: (
+    'xl': 1440px,
+    'xxl': 1440px,
+  ),
+  $divider-border-color: rgb(var(--v-theme-primary)),
+  $divider-opacity: 1
+);
