@@ -9,3 +9,8 @@ a {
 .font-weight-semibold {
   font-weight: 600;
 }
+
+.text-h1,
+.text-h2 {
+  color: rgb(var(--v-theme-primary));
+}
