@@ -1,27 +1,43 @@
-import vuetify from 'vite-plugin-vuetify';
-
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: '2024-11-01',
+  devtools: { enabled: true },
+
+  future: {
+    compatibilityVersion: 4,
+  },
+
+  modules: ['@nuxt/eslint', '@nuxt/image', '@nuxt/fonts', 'vuetify-nuxt-module'],
+
+  ssr: true,
+
+  // when enabling ssr option you need to disable inlineStyles and maybe devLogs
+  features: {
+    inlineStyles: false,
+    devLogs: false,
+  },
+
+  build: {
+    transpile: ['vuetify'],
+  },
+
+  vite: {
+    ssr: {
+      noExternal: ['vuetify'],
+    },
+  },
+
   app: {
     head: {
       charset: 'utf-16',
       viewport: 'width=device-width, initial-scale=1',
       title: 'The Talan Group',
       meta: [
-        // {
-        //   hid: 'description',
-        //   name: 'description',
-        //   content: description,
-        // },
         { name: 'referrer', content: 'always' },
         { name: 'color-scheme', content: 'light' },
         { name: 'application-name', content: 'The Talan Group' },
         { name: 'msapplication-TileColor', content: 'white' },
         { name: 'msapplication-TileImage', content: '/favicon-144.png' },
-        {
-          hid: 'og:title',
-          property: 'og:title',
-          content: 'The Talan Group',
-        },
       ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png', sizes: '32x32' },
@@ -33,22 +49,27 @@ export default defineNuxtConfig({
       ],
     },
   },
-  css: [
-    'vuetify/lib/styles/main.sass',
-    '@mdi/font/css/materialdesignicons.min.css',
-    '/assets/styles/global.scss',
-  ],
-  build: {
-    transpile: ['vuetify'],
-  },
-  hooks: {
-    'vite:extendConfig': (config) => {
-      config.plugins?.push(
-        vuetify({
-          autoImport: true,
-          styles: { configFile: new URL('assets/styles/settings.scss', import.meta.url).pathname },
-        })
-      );
+
+  css: ['assets/global.scss'],
+
+  vuetify: {
+    moduleOptions: {
+      // check https://nuxt.vuetifyjs.com/guide/server-side-rendering.html
+      ssrClientHints: {
+        reloadOnFirstRequest: false,
+        viewportSize: true,
+        prefersColorScheme: false,
+
+        prefersColorSchemeOptions: {
+          useBrowserThemeOnly: false,
+        },
+      },
+
+      // /* If customizing sass global variables ($utilities, $reset, $color-pack, $body-font-family, etc) */
+      // disableVuetifyStyles: true,
+      styles: {
+        configFile: 'assets/settings.scss',
+      },
     },
   },
 });

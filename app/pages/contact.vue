@@ -4,11 +4,22 @@
       <h1 class="text-h2 font-weight-bold">Contact Us</h1>
     </v-container>
 
-    <v-img cover height="500" src="/images/contact.jpeg">
+    <v-img
+      cover
+      height="500"
+      src="/images/contact.jpeg"
+    >
       <v-container class="fill-height">
-        <v-row align-content="center" justify="space-between" class="fill-height text-center">
+        <v-row
+          align-content="center"
+          justify="space-between"
+          class="fill-height text-center"
+        >
           <v-col>
-            <v-icon icon="mdi-email" class="text-primary mb-1" />
+            <v-icon
+              icon="mdi-email"
+              class="text-primary mb-1"
+            />
             <h2 class="text-h6 font-weight-bold mb-3">Email</h2>
             <div class="mb-3">
               <p>Contact us for more information</p>
@@ -24,7 +35,10 @@
 
           <v-col>
             <div class="mb-3">
-              <v-icon icon="mdi-phone" class="text-primary mb-1" />
+              <v-icon
+                icon="mdi-phone"
+                class="text-primary mb-1"
+              />
               <h2 class="text-h6 font-weight-bold mb-3">Phone</h2>
               <div>
                 <p>Leave us a message</p>
@@ -35,7 +49,10 @@
           </v-col>
 
           <v-col>
-            <v-icon icon="mdi-map-marker" class="text-primary mb-1" />
+            <v-icon
+              icon="mdi-map-marker"
+              class="text-primary mb-1"
+            />
             <h2 class="text-h5 font-weight-bold mb-3">Office</h2>
             <div>The Talan Group</div>
             <a

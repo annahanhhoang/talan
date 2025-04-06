@@ -3,17 +3,21 @@
     <template v-if="isFooter">
       <NuxtLink
         v-for="(link, index) in links"
-        :class="[{ 'mr-8': index < links.length - 1 }, 'text-secondary font-weight-semibold']"
         :key="link.title"
+        :class="[{ 'mr-8': index < links.length - 1 }, 'text-secondary font-weight-semibold']"
         :to="link.to"
       >
         {{ link.title }}
       </NuxtLink>
     </template>
-    <div v-else class="d-flex align-center">
+    <div
+      v-else
+      class="d-flex align-center"
+    >
       <v-tabs>
         <v-tab
           v-for="(link, index) in links"
+          :key="link.title"
           :class="[
             'font-weight-medium text-capitalize',
             {
@@ -21,7 +25,6 @@
                 index === links.length - 1,
             },
           ]"
-          :key="link.title"
           :to="link.to"
         >
           {{ link.title }}

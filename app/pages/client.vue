@@ -5,11 +5,10 @@
         <v-col cols="6"> <h2 class="text-h2 font-weight-bold">Our Clients</h2> </v-col>
         <v-col cols="6">
           <p class="text-h6">
-            We understand the difficulty in a broad approach to obtaining talent, so we tailor our
-            approach to fit each individual client's need. Our clients work with an experience HR
-            Advisor to understand the business objective. Our HR Advisor will create a talent
-            pipeline utilizing our extensive network of professionals ensuring each placement
-            results in an ideal match.
+            We understand the difficulty in a broad approach to obtaining talent, so we tailor our approach to fit each
+            individual client's need. Our clients work with an experience HR Advisor to understand the business
+            objective. Our HR Advisor will create a talent pipeline utilizing our extensive network of professionals
+            ensuring each placement results in an ideal match.
           </p>
         </v-col>
       </v-row>
@@ -21,8 +20,8 @@
     </v-img>
     <div class="mx-auto w-31 text-center">
       <p class="text-h6 mb-4">
-        Become our client and get expertise recruitment, HR Advisory, and curated resumes to fit
-        your needs. If you'd like to learn more on how we an help you find talent!
+        Become our client and get expertise recruitment, HR Advisory, and curated resumes to fit your needs. If you'd
+        like to learn more on how we an help you find talent!
       </p>
 
       <div>
