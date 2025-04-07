@@ -46,7 +46,6 @@ const links = [
   { title: 'Home', to: '/', type: 'link' },
   { title: 'Candidates', to: '/candidates', type: 'link' },
   { title: 'Client', to: '/client', type: 'link' },
-  { title: 'Clinical Research Solutions', to: '/solutions', type: 'link' },
   { title: 'About Us', to: '/about', type: 'link' },
   { title: 'Contact Us', to: '/contact', type: 'button' },
 ];

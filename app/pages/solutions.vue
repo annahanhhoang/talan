@@ -1,1 +1,0 @@
-<template>Soluntion Page</template>
