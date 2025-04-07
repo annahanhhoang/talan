@@ -13,11 +13,12 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-img src="/images/client.jpeg" class="my-12" cover height="645">
-      <template v-slot:placeholder>
-        <image-holder />
-      </template>
-    </v-img>
+    <TalanImage
+      img-src="/images/client.jpeg"
+      alt="client photo"
+      class="my-12"
+      height="645"
+    />
     <div class="mx-auto w-31 text-center">
       <p class="text-h6 mb-4">
         Become our client and get expertise recruitment, HR Advisory, and curated resumes to fit your needs. If you'd

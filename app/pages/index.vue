@@ -7,32 +7,31 @@
       height="528"
       tile
     >
-      <v-img
+      <TalanImage
         class="align-center text-center"
-        cover
-        src="/images/home.jpeg"
+        img-src="/images/home.jpeg"
+        alt="hero image"
       >
-        <h1 class="text-h1 font-weight-medium">
-          <div>THE</div>
-          <span class="text-white">TAL</span>
-          <span>A</span>
-          <span class="text-white">N</span>
-          <div>GROUP</div>
-        </h1>
-        <h2 class="text-h4 text-white mt-8 mb-2">Helping Clients Build Successful Organization</h2>
-        <v-divider
-          class="mb-4 mx-auto"
-          length="836"
-          thickness="5"
-        />
-        <BtnContact
-          color="white"
-          text-color="primary"
-        />
-        <template v-slot:placeholder>
-          <ImageHolder />
-        </template>
-      </v-img>
+        <div class="d-flex flex-column align-center justify-center fill-height">
+          <h1 class="text-h1 font-weight-medium">
+            <div>THE</div>
+            <span class="text-white">TAL</span>
+            <span>A</span>
+            <span class="text-white">N</span>
+            <div>GROUP</div>
+          </h1>
+          <h2 class="text-h4 text-white mt-8 mb-2">Helping Clients Build Successful Organization</h2>
+          <v-divider
+            class="mb-4 mx-auto"
+            length="836"
+            thickness="5"
+          />
+          <BtnContact
+            color="white"
+            text-color="primary"
+          />
+        </div>
+      </TalanImage>
     </v-card>
 
     <v-container class="pt-0">
@@ -57,20 +56,15 @@
         </v-col>
       </v-row>
 
-      <v-img
-        class="mb-12"
-        cover
+      <TalanImage
         height="645"
-        src="/images/people.jpeg"
-      >
-        <template v-slot:placeholder>
-          <image-holder />
-        </template>
-      </v-img>
+        img-src="/images/people.jpeg"
+        alt="people photo"
+      />
 
       <!--WHAT WE OFFER-->
 
-      <v-row>
+      <v-row class="mt-12">
         <v-col cols="12"><p class="text-h2 font-weight-bold mb-6">What We Offer</p></v-col>
         <v-col cols="4">
           <v-card
@@ -132,8 +126,7 @@
               <v-col cols="10">
                 <p class="font-weight-bold mb-4">Clinical Research</p>
                 <p class="mb-4 mr-4">
-                  Partnered with BKS Clinical, we provide monitoring oversight, inspection readiness,
-                  and contract CRAs
+                  Partnered with BKS Clinical, we provide monitoring oversight, inspection readiness, and contract CRAs
                 </p>
               </v-col>
             </v-row>

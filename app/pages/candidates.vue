@@ -18,12 +18,16 @@
           >
         </p>
       </v-col>
-      <v-col cols="4" offset="1">
-        <v-img class="mt-12" cover height="300" src="/images/candidate.jpeg">
-          <template v-slot:placeholder>
-            <image-holder />
-          </template>
-        </v-img>
+      <v-col
+        cols="4"
+        offset="1"
+      >
+        <TalanImage
+          class="mt-12"
+          height="300"
+          img-src="/images/candidate.jpeg"
+          alt="candidate photo"
+        />
       </v-col>
     </v-row>
   </v-container>

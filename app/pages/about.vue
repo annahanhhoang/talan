@@ -26,10 +26,10 @@
         </div>
       </v-container>
     </div>
-    <v-img src="/images/about.jpeg" class="mb-12" cover height="645">
-      <template v-slot:placeholder>
-        <image-holder />
-      </template>
-    </v-img>
+    <TalanImage
+      img-src="/images/about.jpeg"
+      alt="Talan Group about us"
+      height="645"
+    />
   </div>
 </template>

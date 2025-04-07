@@ -4,10 +4,9 @@
       <h1 class="text-h2 font-weight-bold">Contact Us</h1>
     </v-container>
 
-    <v-img
-      cover
+    <TalanImage
       height="500"
-      src="/images/contact.jpeg"
+      img-src="/images/contact.jpeg"
     >
       <v-container class="fill-height">
         <v-row
@@ -64,9 +63,6 @@
           </v-col>
         </v-row>
       </v-container>
-      <template v-slot:placeholder>
-        <image-holder />
-      </template>
-    </v-img>
+    </TalanImage>
   </div>
 </template>
