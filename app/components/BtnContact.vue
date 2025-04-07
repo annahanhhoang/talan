@@ -9,28 +9,24 @@
   </v-btn>
 </template>
 
-<script lang="ts">
-export default {
-  props: {
-    to: {
-      type: String,
-      default: '/contact',
-    },
-    color: {
-      type: String,
-      default: 'primary',
-    },
-
-    textColor: {
-      type: String,
-      default: undefined,
-    },
+<script setup lang="ts">
+const props = defineProps({
+  to: {
+    type: String,
+    default: '/contact',
+  },
+  color: {
+    type: String,
+    default: 'primary',
   },
 
-  computed: {
-    textClass() {
-      return this.textColor ? `text-${this.textColor}` : '';
-    },
+  textColor: {
+    type: String,
+    default: undefined,
   },
-};
+});
+
+const textClass = computed(() => {
+  return props.textColor ? `text-${props.textColor}` : '';
+});
 </script>
