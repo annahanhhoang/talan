@@ -2,9 +2,8 @@
   <div>
     <!-- BANNER -->
     <v-card
-      class="mb-12"
+      class="mb-lg-9"
       flat
-      height="528"
       tile
     >
       <TalanImage
@@ -13,60 +12,70 @@
         alt="hero image"
       >
         <div class="d-flex flex-column align-center justify-center fill-height">
-          <h1 class="text-h1 font-weight-medium">
-            <div>THE</div>
+          <h1 class="text-h3 text-md-h1 font-weight-medium">
+            <p>THE</p>
             <span class="text-white">TAL</span>
             <span>A</span>
             <span class="text-white">N</span>
-            <div>GROUP</div>
+            <p>GROUP</p>
           </h1>
-          <h2 class="text-h4 text-white mt-8 mb-2">Helping Clients Build Successful Organization</h2>
+          <h2 class="text-h6 text-md-h4 text-white text-center mt-4 mt-lg-8 mb-2">
+            Helping Clients Build Successful Organization
+          </h2>
           <v-divider
-            class="mb-4 mx-auto"
+            class="mx-auto"
             length="836"
             thickness="5"
           />
           <BtnContact
             color="white"
             text-color="primary"
+            class="my-4 mb-lg-0"
           />
         </div>
       </TalanImage>
     </v-card>
 
-    <v-container class="pt-0">
+    <v-container class="px-md-0">
       <!-- WHO WE ARE -->
-      <v-row
-        no-gutters
-        class="mb-12"
-      >
+      <v-row>
         <v-col
-          cols="6"
-          class="text-h2 font-weight-bold"
+          cols="12"
+          md="6"
+          class="text-h4 text-md-h2 font-weight-bold"
         >
           Secure your ideal candidate & grow your team with us.
         </v-col>
-        <v-col cols="6">
-          <p class="text-h6 ml-13">
+        <v-col
+          cols="12"
+          md="6"
+          class="mb-lg-9"
+        >
+          <p class="text-md-h6 ml-lg-13">
             We are a boutique firm who specializes in clinical research, finance, and tech placements. We help clients
             build successful organizations by focusing on the best talent and culture fit. We work with our clients to
             hire, retain, and motivate their greatest asset - their people. We advise managers on how to develop and
             reward their workforce to build careers.
           </p>
         </v-col>
-      </v-row>
 
-      <TalanImage
-        height="645"
-        img-src="/images/people.jpeg"
-        alt="people photo"
-      />
+        <v-col cols="12">
+          <TalanImage
+            img-src="/images/people.jpeg"
+            alt="people in a meeting photo"
+          />
+        </v-col>
 
-      <!--WHAT WE OFFER-->
-
-      <v-row class="mt-12">
-        <v-col cols="12"><p class="text-h2 font-weight-bold mb-6">What We Offer</p></v-col>
-        <v-col cols="4">
+        <!--WHAT WE OFFER-->
+        <v-col
+          cols="12"
+          class="my-lg-6"
+          ><p class="text-h4 text-md-h2 font-weight-bold">What We Offer</p></v-col
+        >
+        <v-col
+          cols="12"
+          md="4"
+        >
           <v-card
             class="text-white"
             color="secondary"
@@ -90,7 +99,10 @@
           </v-card>
         </v-col>
 
-        <v-col cols="4">
+        <v-col
+          cols="12"
+          md="4"
+        >
           <v-card
             class="text-white"
             color="primary"
@@ -111,7 +123,10 @@
           </v-card>
         </v-col>
 
-        <v-col cols="4">
+        <v-col
+          cols="12"
+          md="4"
+        >
           <v-card
             color="accent"
             height="100%"
@@ -136,9 +151,3 @@
     </v-container>
   </div>
 </template>
-
-<style>
-.font-18 {
-  font-size: 18px;
-}
-</style>

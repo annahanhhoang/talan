@@ -1,12 +1,12 @@
 <template>
   <div>
     <v-container>
-      <h1 class="text-h2 font-weight-bold">Contact Us</h1>
+      <h1 class="text-h4 text-md-h2 font-weight-bold">Contact Us</h1>
     </v-container>
 
     <TalanImage
-      height="500"
       img-src="/images/contact.jpeg"
+      alt="contact photo"
     >
       <v-container class="fill-height">
         <v-row
@@ -14,7 +14,10 @@
           justify="space-between"
           class="fill-height text-center"
         >
-          <v-col>
+          <v-col
+            cols="12"
+            md="auto"
+          >
             <v-icon
               icon="mdi-email"
               class="text-primary mb-1"
@@ -32,7 +35,10 @@
             </div>
           </v-col>
 
-          <v-col>
+          <v-col
+            cols="12"
+            md="auto"
+          >
             <div class="mb-3">
               <v-icon
                 icon="mdi-phone"
@@ -47,7 +53,10 @@
             </div>
           </v-col>
 
-          <v-col>
+          <v-col
+            cols="12"
+            md="auto"
+          >
             <v-icon
               icon="mdi-map-marker"
               class="text-primary mb-1"
