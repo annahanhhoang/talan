@@ -24,6 +24,10 @@ defineProps({
     type: String,
     default: 'cover',
   },
+  isBg: {
+    type: Boolean,
+    default: false,
+  },
 });
 </script>
 
@@ -46,7 +50,7 @@ defineProps({
       :cover="fit === 'cover'"
     >
       <slot />
-      <template #placeholder>
+      <template v-if="!isBg" #placeholder>
         <div class="d-flex align-center justify-center fill-height">
           <p>Image loading...</p>
         </div>

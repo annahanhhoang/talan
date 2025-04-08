@@ -7,6 +7,7 @@
     <TalanImage
       img-src="/v1744181787/contact_izuqfg.jpg"
       alt="contact photo"
+      :is-bg="true"
     >
       <v-container class="fill-height">
         <v-row

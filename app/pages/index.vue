@@ -10,6 +10,7 @@
         class="align-center text-center"
         img-src="/v1744181787/home_zkpxie.jpg"
         alt="hero image"
+        :is-bg="true"
       >
         <div class="d-flex flex-column align-center justify-center fill-height">
           <h1 class="text-h3 text-md-h1 font-weight-medium">
