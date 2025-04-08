@@ -1,14 +1,14 @@
 <template>
   <div>
     <template v-if="isFooter">
-      <NuxtLink
-        v-for="(link, index) in links"
-        :key="link.title"
-        :class="[{ 'mr-8': index < links.length - 1 }, 'text-secondary font-weight-semibold']"
+      <v-btn
+        v-for="link in links"
+        :key="`footer ${link.title}`"
+        :active="false"
+        :text="link.title"
         :to="link.to"
-      >
-        {{ link.title }}
-      </NuxtLink>
+        variant="text"
+      />
     </template>
     <div
       v-else
@@ -44,9 +44,9 @@ defineProps({
 
 const links = [
   { title: 'Home', to: '/', type: 'link' },
+  { title: 'About Us', to: '/about', type: 'link' },
   { title: 'Candidates', to: '/candidates', type: 'link' },
   { title: 'Client', to: '/client', type: 'link' },
-  { title: 'About Us', to: '/about', type: 'link' },
   { title: 'Contact Us', to: '/contact', type: 'button' },
 ];
 </script>

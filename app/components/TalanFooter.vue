@@ -1,9 +1,12 @@
 <template>
-  <v-footer class="text-center flex-column bg-transparent">
+  <v-footer class="text-center">
     <v-container>
-      <nav-links class="my-16" :is-footer="true" />
+      <nav-links
+        class="mb-3"
+        :is-footer="true"
+      />
 
-      <v-divider class="mb-6" />
+      <v-divider class="mb-3 mb-md-6" />
 
       <div class="w-100">{{ new Date().getFullYear() }} - The Talan Group. All right reserved.</div>
     </v-container>
