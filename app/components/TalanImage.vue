@@ -30,7 +30,7 @@ defineProps({
 <template>
   <NuxtImg
     v-slot="{ src, imgAttrs }"
-    :src="`../..${imgSrc}`"
+    :src="imgSrc"
     :alt="alt"
     :fit="fit"
     :preload="preload"

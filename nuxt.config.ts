@@ -52,6 +52,13 @@ export default defineNuxtConfig({
 
   css: ['assets/global.scss'],
 
+  image: {
+    provider: 'cloudinary',
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/asianna/image/upload/',
+    },
+  },
+
   vuetify: {
     moduleOptions: {
       // check https://nuxt.vuetifyjs.com/guide/server-side-rendering.html

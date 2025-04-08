@@ -39,7 +39,7 @@
       </v-row>
     </v-container>
     <TalanImage
-      img-src="/images/about.jpeg"
+      img-src="/v1744181787/about_zveztx.jpg"
       alt="Talan Group about us"
     />
   </div>

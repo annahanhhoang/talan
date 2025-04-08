@@ -23,7 +23,7 @@
     </v-container>
     <div class="my-lg-6">
       <TalanImage
-        img-src="/images/client.jpeg"
+        img-src="/v1744181787/client_loitvd.jpg"
         alt="client photo"
       />
     </div>

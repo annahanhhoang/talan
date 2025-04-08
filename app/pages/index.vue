@@ -8,7 +8,7 @@
     >
       <TalanImage
         class="align-center text-center"
-        img-src="/images/home.jpeg"
+        img-src="/v1744181787/home_zkpxie.jpg"
         alt="hero image"
       >
         <div class="d-flex flex-column align-center justify-center fill-height">
@@ -61,7 +61,7 @@
 
         <v-col cols="12">
           <TalanImage
-            img-src="/images/people.jpeg"
+            img-src="/v1744181789/people_pxtl1f.jpg"
             alt="people in a meeting photo"
           />
         </v-col>

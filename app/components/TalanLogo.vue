@@ -5,7 +5,7 @@
   >
     <TalanImage
       alt="logo"
-      img-src="/images/logo.png"
+      img-src="/v1744181788/logo_xhhzqc.png"
       width="48"
       height="48"
       placeholder

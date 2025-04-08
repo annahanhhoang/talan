@@ -5,7 +5,7 @@
     </v-container>
 
     <TalanImage
-      img-src="/images/contact.jpeg"
+      img-src="/v1744181787/contact_izuqfg.jpg"
       alt="contact photo"
     >
       <v-container class="fill-height">
