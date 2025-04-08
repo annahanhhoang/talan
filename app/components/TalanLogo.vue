@@ -3,11 +3,11 @@
     to="/"
     class="d-flex align-center"
   >
-    <NuxtImg
+    <TalanImage
       alt="logo"
-      src="../../images/logo.png"
-      width="64"
-      height="64"
+      img-src="/images/logo.png"
+      width="48"
+      height="48"
       placeholder
     />
   </NuxtLink>
