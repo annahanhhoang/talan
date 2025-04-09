@@ -6,8 +6,7 @@
 
 // https://vuetifyjs.com/features/sass-variables/`
 @use 'vuetify/settings' with (
-  $app-bar-background: rgb(var(--v-theme-secondary)),
-  $app-bar-color: rgba(var(--v-theme-surface), var(--v-high-emphasis-opacity)),
+  $app-bar-background: #263238,
   $card-border-radius: 0,
   $color-pack: false,
   $container-max-widths: (

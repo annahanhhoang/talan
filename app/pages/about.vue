@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-light-grey">
+    <div class="bg-secondary">
       <v-container>
         <v-row>
           <v-col

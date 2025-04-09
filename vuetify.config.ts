@@ -22,13 +22,16 @@ const light: ThemeDefinition = {
 
 const dark: ThemeDefinition = {
   dark: true,
-  colors,
+  colors: {
+    ...colors,
+    'dark-grey': '#212121',
+  },
 };
 
 export default defineVuetifyConfiguration({
   // your Vuetify options here
   theme: {
-    defaultTheme: 'light',
+    defaultTheme: 'dark',
     themes: {
       light,
       dark,

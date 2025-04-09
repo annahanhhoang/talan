@@ -78,7 +78,6 @@
           md="4"
         >
           <v-card
-            class="text-white"
             color="secondary"
             height="100%"
           >
@@ -90,7 +89,7 @@
                 <v-icon class="ml-4">mdi-cube</v-icon>
               </v-col>
               <v-col cols="10">
-                <p class="text-white font-weight-bold mb-4">Talent Acquisition</p>
+                <p class="font-weight-bold mb-4">Talent Acquisition</p>
                 <p class="mb-4 mr-4">
                   We believe in being an extension of your HR team, working closely to attract and retain talent at
                   levels of the organization.
@@ -105,7 +104,7 @@
           md="4"
         >
           <v-card
-            class="text-white"
+            class="text-dark-grey"
             color="primary"
             height="100%"
           >
@@ -117,7 +116,7 @@
                 <v-icon class="ml-4">mdi-cube</v-icon>
               </v-col>
               <v-col cols="10">
-                <p class="text-white font-weight-bold mb-4">Human Resource Consulting</p>
+                <p class="font-weight-bold mb-4">Human Resource Consulting</p>
                 <p class="mb-4 mr-4">We offer full HR advisory for executives, managers, and candidates</p>
               </v-col>
             </v-row>
