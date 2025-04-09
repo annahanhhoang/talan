@@ -5,9 +5,7 @@ const colors = {
   accent: '#E0E5F6',
   'light-grey': '#F6F6F6',
   primary: '#F4744B',
-  'primary-lighten-1': '#FFBE8F',
   secondary: '#484848',
-  'secondary-darken-1': '#111A3A',
   white: '#FFFFFF',
 };
 
