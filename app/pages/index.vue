@@ -8,7 +8,7 @@
     >
       <TalanImage
         class="align-center text-center"
-        img-src="/v1744181787/home_zkpxie.jpg"
+        img-src="/v1744275163/home_desktop.jpg"
         alt="hero image"
         :is-bg="true"
       >
@@ -62,8 +62,8 @@
 
         <v-col cols="12">
           <TalanImage
-            img-src="/v1744181789/people_pxtl1f.jpg"
-            alt="people in a meeting photo"
+            img-src="/v1744275164/people_desktop.jpg"
+            alt="people in a meeting"
           />
         </v-col>
 

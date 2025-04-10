@@ -5,7 +5,7 @@
     </v-container>
 
     <TalanImage
-      img-src="/v1744181787/contact_izuqfg.jpg"
+      img-src="/v1744275161/contact_desktop.jpg"
       alt="contact photo"
       :is-bg="true"
     >
