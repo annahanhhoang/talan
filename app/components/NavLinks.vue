@@ -44,7 +44,7 @@
       <template v-else>
         <v-tabs>
           <v-tab
-            v-for="link in links"
+            v-for="link in headerLinks"
             :key="link.title"
             :class="['font-weight-medium text-capitalize']"
             :to="link.to"
