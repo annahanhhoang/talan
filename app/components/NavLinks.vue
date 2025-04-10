@@ -9,6 +9,12 @@
         :to="link.to"
         variant="text"
       />
+      <v-btn
+        :active="false"
+        text="Contact Us"
+        to="/contact"
+        variant="text"
+      />
     </template>
     <div
       v-else
