@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const { xsOnly } = useDisplay();
+</script>
+
 <template>
   <v-app-bar
     app
@@ -7,7 +11,6 @@
       <!-- Logo -->
       <TalanLogo />
       <v-spacer />
-      <!-- Desktop view Navigation -->
       <nav-links />
     </v-container>
   </v-app-bar>
