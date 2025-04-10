@@ -25,7 +25,7 @@
         offset-md="1"
       >
         <TalanImage
-          img-src="/v1744181787/candidate_ztu8iq.jpg"
+          img-src="/v1744275160/candidate_desktop.jpg"
           alt="candidate photo"
           height="100%"
         />
